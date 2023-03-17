@@ -21,7 +21,7 @@ The two resulting genome assemblies are:
 3) [Assembly of binned HiFi reads with HiCanu](https://github.com/USDA-ARS-GBRU/Pepper_TrioBinning/wiki/Assembly-of-binned-HiFi-reads-with-HiCanu)   
 4) [Assembly of binned HiFi reads with hifiasm](https://github.com/USDA-ARS-GBRU/Pepper_TrioBinning/wiki/Assembly-of-binned-HiFi-reads-with-hifiasm)   
 5) Bionano optical map merger with assembly
-6) Homology based scaffolding workflow
+6) [Homology based scaffolding workflow](https://github.com/USDA-ARS-GBRU/Pepper_TrioBinning/wiki/Homology-based-scaffolding-workflow)
 7) Homology based scaffolding to other reference genomes for chromosome designation and orientation
 
 Other scripts included here are:
