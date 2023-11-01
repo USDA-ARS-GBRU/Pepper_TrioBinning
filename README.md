@@ -10,8 +10,8 @@ The input data for trio-binning assembly are:
     
      
 The two resulting genome assemblies are:
-1) Capsicum_annuum_HDA149v1.0.fasta
-2) Capsicum_annuum_HDA149v1.0.fasta
+1) [Capsicum_annuum_HDA149v1.0](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_033026605.1/)
+2) [Capsicum_annuum_HDA149v1.0](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_033026575.1/)
 
 ## The steps in genome assembly are:
 1) Raw data processing   
