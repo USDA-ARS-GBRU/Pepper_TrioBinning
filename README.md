@@ -1,35 +1,9 @@
 # Haplotype-resolved hybrid pepper genome with trio binning
+Welcome to the Pepper Triobinning Genome Assembly github for our _Capsicum annuum_ [2023 study](https://www.frontiersin.org/articles/10.3389/fpls.2023.1184112/full)
 Germplasm lines are HDA149 and HDA330. Their F1 offspring is called 'F1 (HDA149xHDA330)' or simply the F1   
-
-The input data for trio-binning assembly are:
-1) Short read sequencing on HDA149
-2) Short read sequencing on HDA330
-3) PacBio Hifi sequencing on the F1
-4) Bionano optical mapping on the F1
-
     
-     
-The two resulting genome assemblies are:
+The HDA149 v1.0 and HDA330v1.0 genome assemblies and the raw data used to generate them can be found at:
 1) [Capsicum_annuum_HDA149v1.0](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_033026605.1/)
 2) [Capsicum_annuum_HDA149v1.0](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_033026575.1/)
 
-## The steps in genome assembly are:
-1) Raw data processing   
-[PacBio Hifi sequencing data on the F1 (HDA149 x HDA330)](https://github.com/USDA-ARS-GBRU/Pepper_TrioBinning/wiki/Raw-sequencing-data-processing-for-PacBio-Hifi-of-the-F1-sample-(HDA149-x-HDA330))    
-[Illumina 150 bp PE sequencing data on parents (HDA149 and HDA330)](https://github.com/USDA-ARS-GBRU/Pepper_TrioBinning/wiki/Raw-sequencing-data-processing-for-short-reads-on-parents-(HDA149-and-HDA330))
-2) [Binning HiFi reads](https://github.com/USDA-ARS-GBRU/Pepper_TrioBinning/wiki/Binning-HiFi-reads)
-3) [Assembly of binned HiFi reads with HiCanu](https://github.com/USDA-ARS-GBRU/Pepper_TrioBinning/wiki/Assembly-of-binned-HiFi-reads-with-HiCanu)   
-4) [Assembly of binned HiFi reads with hifiasm](https://github.com/USDA-ARS-GBRU/Pepper_TrioBinning/wiki/Assembly-of-binned-HiFi-reads-with-hifiasm)   
-5) Bionano optical map merger with assembly
-6) [Homology based scaffolding workflow](https://github.com/USDA-ARS-GBRU/Pepper_TrioBinning/wiki/Homology-based-scaffolding-workflow)
-7) Homology based scaffolding to other reference genomes for chromosome designation and orientation
-
-Other scripts included here are:
-1) Assembly statistics calculation
-2) Assembly with hifiasm on the un-binned reads
-3) Assembly with hifiasm's trio-binning method
-
-## Figures in publication
-
-
-## 
+Look in the wiki to find step-by-step instructions to recreate the assemblies and analyze them. 
